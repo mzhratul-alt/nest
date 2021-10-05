@@ -1,0 +1,39 @@
+/*
+   Template Name: Nest
+   Description: Grocery, Super Market, eCommerce HTML Template
+   Author Name: Daniel
+   Version: 1.0
+
+   Table of Contents
+   ================================================================
+   1) Common
+
+
+/* Common Css Start */
+:root{
+   --hlt-color: #3BB77E;
+   --common-text: #253D4E;
+   --white: #ffffff;
+   --lato-font: 'Lato', sans-serif;
+   --quicksand-font: 'Quicksand', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+span{
+   margin: 0;
+   padding: 0;
+}
+a,a:hover{
+   text-decoration: none;
+}
+ul{
+   list-style-type: none;
+}
+img{
+   width:100%;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: var (--quicksand-font);
+   color: var(--common-text);
+}
+/* //Common Css End */

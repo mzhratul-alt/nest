@@ -31,9 +31,39 @@ ul{
 }
 img{
    width:100%;
+   display: block;
 }
 h1,h2,h3,h4,h5,h6{
    font-family: var (--quicksand-font);
    color: var(--common-text);
 }
+.form-control:focus,
+.form-select:focus,
+.btn:focus{
+   box-shadow: none;
+}
 /* //Common Css End */
+
+/* Top Header Section Css Start */
+header ul li{
+   display: inline-block;
+}
+/* //Top Header Section Css End */
+
+
+/* Middle Header Section Css Start */
+.middle_header form.search_box{
+   border: 1px solid var(--hlt-color);
+}
+.middle_header form.search_box .form-control,
+.middle_header form.search_box .form-select{
+   border: none;
+}
+.ecom_action ul li{
+   position: relative;
+}
+.ecom_action ul li span{
+   position:absolute;
+}
+
+/* //Middle Header Section Css End */

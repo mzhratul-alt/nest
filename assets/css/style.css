@@ -1,0 +1,166 @@
+/*
+   Template Name: Nest
+   Description: Grocery, Super Market, eCommerce HTML Template
+   Author Name: Daniel
+   Version: 1.0
+
+   Table of Contents
+   ================================================================
+   1) Common
+
+
+/* Common Css Start */
+:root {
+   --hlt-color: #3bb77e;
+   --common-text: #253d4e;
+   --white: #ffffff;
+   --lato-font: "Lato", sans-serif;
+   --quicksand-font: "Quicksand", sans-serif;
+   --t-l-4s: all linear .4s;
+   --t-l-5s: all linear .5s;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ span,
+ ul,
+ ol,
+ li {
+   margin: 0;
+   padding: 0;
+ }
+ a,
+ a:hover {
+   text-decoration: none;
+ }
+ ul {
+   list-style-type: none;
+ }
+ img {
+   width: 100%;
+   display: block;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: var (--quicksand-font);
+   color: var(--common-text);
+ }
+ .form-control:focus,
+ .form-select:focus,
+ .btn:focus {
+   box-shadow: none;
+ }
+ .section_hedader h2 {
+   font-size: 32px;
+   line-height: 1.2;
+   margin-right: 30px;
+ }
+ .section_hedader ul li{
+    display: inline-block;
+ }
+ .section_hedader ul li a{
+    display: inline-block;
+    color:var(--common-text);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--quicksand-font);
+    margin-right: 10px;
+    padding-right: 10px;
+    transition: var(--t-l-5s)
+ }
+ .section_hedader ul li:hover > a{
+    color: var(--hlt-color);
+    transform: translateY(-3px)
+ }
+ .slider_icon{
+    width:40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #F2F3F4;
+    border-radius: 50%;
+    color: var(--common-text);
+    cursor: pointer;
+    transition:var(--t-l-4s);
+ }
+ .slider_icon:hover{
+    background-color: var(--hlt-color);
+    color:var(--white);
+ }
+ /* //Common Css End */
+
+ /* Top Header Section Css Start */
+ header ul li {
+   display: inline-block;
+ }
+ /* //Top Header Section Css End */
+
+ /* Middle Header Section Css Start */
+ .middle_header form.search_box {
+   border: 1px solid var(--hlt-color);
+ }
+ .middle_header form.search_box .form-control,
+ .middle_header form.search_box .form-select {
+   border: none;
+ }
+ .ecom_action ul li {
+   position: relative;
+ }
+ .ecom_action ul li span {
+   position: absolute;
+ }
+
+ /* //Middle Header Section Css End */
+
+ .featured_category_item {
+   padding: 0 12px;
+ }
+ .featured_category_item .featured_category_item_inner{
+    border-radius: 10px;
+    border:1px solid transparent;
+    transition: var(--t-l-4s);
+ }
+ .featured_category_item .featured_category_item_inner:hover{
+    border-color:var(--hlt-color);
+    box-shadow: 5px 5px 15px rgba(0,0,0,.05);
+ }
+ .featured_category_item .featured_category_item_inner h5{
+    transition: var(--t-l-4s);
+ }
+ .featured_category_item .featured_category_item_inner:hover h5{
+    color:var(--hlt-color);
+ }
+ .featured_category_thumb{
+    padding:0 20px;
+    overflow: hidden
+ }
+ .featured_category_thumb img{
+    transition: var(--t-l-4s);
+ }
+ .featured_category_thumb:hover img{
+    transform: scale(1.1);
+ }
+
+
+
+
+
+
+
+
+ .featured_slide_icon{
+    position: absolute;
+    right: 12px;
+    top:-55px;
+ }
+ .featured_slide_icon.fa-long-arrow-alt-left{
+    right: 65px;
+ }

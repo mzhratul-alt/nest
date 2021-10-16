@@ -6,7 +6,11 @@
 
    Table of Contents
    ================================================================
-   1) Common
+   1) Common Css
+   2) Header Section
+      2.1) Top Header
+      2.2) Middle Header
+      2.3) Bottom Header
 
 
 /* Common Css Start */
@@ -97,13 +101,19 @@
  }
  /* //Common Css End */
 
- /* Top Header Section Css Start */
+ /* Header Section Css Start */
  header ul li {
    display: inline-block;
  }
+ .top_header,
+ .middle_header,
+ .bottom_header {
+   border-bottom: 1px solid rgba(37, 61, 78, 0.2);
+ }
+ /* Top Header Section Css Start */
+
  .top_header{
    padding:8px 0;
-   border-bottom: 1px solid rgba(37, 61, 78, 0.2);
 }
  .top_header ul li a{
     color:var(--common-text);
@@ -118,6 +128,14 @@
  /* //Top Header Section Css End */
 
  /* Middle Header Section Css Start */
+ .middle_header{
+   padding: 30px 0;
+ }
+
+.middle_header a.navbar-brand{
+   display: inline-block;
+}
+
  .middle_header form.search_box {
    border: 2px solid var(--hlt-color);
    border-radius: 5px;
@@ -141,9 +159,26 @@
  .ecom_action ul li {
    position: relative;
  }
+ .ecom_action ul li i{
+    font-size: 30px;
+    padding-right: 8px;
+ }
+ .ecom_action ul li{
+    margin-right: 8px;
+ }
  .ecom_action ul li span {
    position: absolute;
- }
+   width: 20px;
+   height: 20px;
+   background-color: var(--hlt-color);
+   text-align: center;
+   line-height: 18px;
+   display: inline-block;
+   border-radius: 50%;
+   font-weight: 500;
+   top: -10px;
+   left: 20px;
+}
 
  /* //Middle Header Section Css End */
 
@@ -191,3 +226,4 @@
  .featured_slide_icon.fa-long-arrow-alt-left{
     right: 65px;
  }
+ /* //Header Section Css End */

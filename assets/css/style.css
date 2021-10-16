@@ -101,15 +101,42 @@
  header ul li {
    display: inline-block;
  }
+ .top_header{
+   padding:8px 0;
+   border-bottom: 1px solid rgba(37, 61, 78, 0.2);
+}
+ .top_header ul li a{
+    color:var(--common-text);
+    font-family: var(--lato-font);
+    font-weight: 500;
+    font-size: 13px;
+ }
+ .top_left_header ul li,
+ .top_right_header ul li{
+    margin-right: 10px;
+ }
  /* //Top Header Section Css End */
 
  /* Middle Header Section Css Start */
  .middle_header form.search_box {
-   border: 1px solid var(--hlt-color);
+   border: 2px solid var(--hlt-color);
+   border-radius: 5px;
+   padding:5px 0;
  }
+
  .middle_header form.search_box .form-control,
  .middle_header form.search_box .form-select {
    border: none;
+ }
+ .middle_header form.search_box select {
+    position: relative;
+ }
+ .middle_header form.search_box select::after{
+    content: '';
+    position: absolute;
+    width:1px;
+    height:40%;
+    background-color:rgba(37, 61, 78, 0.3);
  }
  .ecom_action ul li {
    position: relative;

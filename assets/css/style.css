@@ -179,8 +179,32 @@
    top: -10px;
    left: 20px;
 }
-
  /* //Middle Header Section Css End */
+
+ /* Bottom Header Section Css Start */
+ .bottom_header{
+    padding:20px 0;
+ }
+ .bottom_header .all_categories{
+    background-color: var(--hlt-color);
+    padding:20px 10px;
+    border-radius: 5px;
+ }
+ .bottom_header .all_categories a{
+    display: block;
+    color:#fff;
+    font-size: 16px;
+    font-family: var(--quicksand-font);
+    font-weight: 500;
+ }
+ .bottom_header .all_categories a i.fa-th-large,
+ .bottom_header .all_categories a span{
+    margin-right: 10px;
+ }
+ .bottom_header .all_categories a i.fa-chevron-down{
+    margin-left:10px;
+ }
+ /* //Bottom Header Section Css End */
 
  .featured_category_item {
    padding: 0 12px;
